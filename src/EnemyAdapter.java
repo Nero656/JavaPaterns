@@ -7,7 +7,6 @@ public class EnemyAdapter implements ModernEnemy{
 
     @Override
     public void performAttack() {
-        // Преобразуем новую атаку в старую
         oldEnemy.attackWithClub();
     }
 
